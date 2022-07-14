@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T19:10:34.682Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Kl0_4yt4OWH8itWcF8In" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-14T14:24:30.441Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WDRPDcHcRdTwGbMuwfIP" version="20.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,7 +53,7 @@
             <mxPoint x="135" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RrUPMCLkPIT0SRZi7-sB-10" value="Active, Trips &amp;gt; 6, &lt;br&gt;Sales Frequency Class = FQ1, &lt;br&gt;New PL = NO,&lt;br&gt;Forecast Model Optimization Branch = 00,&lt;br&gt;In promo now = NO,&lt;br&gt;Forecast Model = EXP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="RrUPMCLkPIT0SRZi7-sB-10" value="Active, Trips &amp;gt; 6, &lt;br&gt;Sales Frequency Class = FQ1, &lt;br&gt;New PL = NO,&lt;br&gt;Forecast Model Optimization Branch /= 00,&lt;br&gt;In promo now = NO,&lt;br&gt;Forecast Model = EXP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="330" width="360" height="220" as="geometry" />
         </mxCell>
         <mxCell id="RrUPMCLkPIT0SRZi7-sB-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -78,6 +78,39 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="522" y="521" as="sourcePoint" />
             <mxPoint x="521.5999999999999" y="541" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RrUPMCLkPIT0SRZi7-sB-18" value="Active, Trips &amp;lt; -6, &lt;br&gt;Sales Frequency Class = FQ1, &lt;br&gt;New PL = NO,&lt;br&gt;Forecast Model Optimization Branch /= 00,&lt;br&gt;In promo now = NO,&lt;br&gt;Forecast Model = EXP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="54" y="640" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="RrUPMCLkPIT0SRZi7-sB-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RrUPMCLkPIT0SRZi7-sB-10" target="RrUPMCLkPIT0SRZi7-sB-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="289" y="635" as="sourcePoint" />
+            <mxPoint x="339" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RrUPMCLkPIT0SRZi7-sB-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="760" as="sourcePoint" />
+            <mxPoint x="534" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RrUPMCLkPIT0SRZi7-sB-21" value="Set Adjustment = Aggressive Up" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="473" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RrUPMCLkPIT0SRZi7-sB-22" value="Set Adjustment End Date = 7" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="473" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RrUPMCLkPIT0SRZi7-sB-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="532.9" y="840" as="sourcePoint" />
+            <mxPoint x="532.4999999999999" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RrUPMCLkPIT0SRZi7-sB-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="533" y="760" as="sourcePoint" />
+            <mxPoint x="532.5999999999999" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
